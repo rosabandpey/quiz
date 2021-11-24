@@ -130,6 +130,51 @@ const questions = [
 
   quizForm.html(questionHtml.join("")+`<button type="submit">Submit</button>`)
  
+
+  //return Answers
+  quizForm.submit(event =>{
+    event.preventDefault();
+
+
+    let rightKey=0;
+    let wrongKey=0;
+    let emptyAnswer=0;
+    questions.forEach(question=>
+      {
+        const checkedAnswer= $(`input[name='question${question.id}']:checked`).val();
+        console.log(checkedAnswer)
+        if (checkedAnswer){
+          if(checkedAnswer==question.answerKey)
+          {
+            rightKey+=1;
+          }else{
+            wrongKey+=1;
+          }
+        }
+        else{
+          emptyAnswer+=1;
+        }
+       
+       
+      });
+
+      $('#rightAnswers').html(rightKey);
+      $("#wrongAnswers").html(wrongKey);
+      $("#emptyAnswers").html(emptyAnswer);
+
+
+})
+ 
+ 
+         
+   
+  
+ 
+ 
+ 
+
+
+
            
      
     
