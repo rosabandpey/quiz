@@ -1,0 +1,61 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\css\\Mobile-first"
+		},
+		{
+			"path": "..\\..\\css\\responsive-menu"
+		},
+		{
+			"path": "..\\..\\css\\qcv-part1"
+		},
+		{
+			"path": "..\\..\\css\\qcv-part2"
+		},
+		{
+			"path": "..\\..\\css\\qcv-part3"
+		},
+		{
+			"path": "..\\..\\css\\qcv-part4\\qcv-part4"
+		},
+		{
+			"path": "..\\..\\bootstrap\\faq"
+		},
+		{
+			"path": "..\\..\\bootstrap\\shop1-part1"
+		},
+		{
+			"path": "..\\..\\bootstrap\\shop1-part2"
+		},
+		{
+			"path": "..\\..\\bootstrap\\shop1-part3"
+		},
+		{
+			"path": "..\\..\\bootstrap\\shop1-part4"
+		},
+		{
+			"path": "..\\1"
+		},
+		{
+			"path": "..\\products"
+		},
+		{
+			"path": "..\\nested-selector-js"
+		},
+		{
+			"path": "..\\slider"
+		},
+		{
+			"path": "..\\tic-tac-toe-part1"
+		},
+		{
+			"path": "..\\colors"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "quiz"
+	}
+}
